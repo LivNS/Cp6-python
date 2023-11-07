@@ -9,7 +9,6 @@ Integrantes:
 
 import os
 
-# Classe para gerenciamento de estoque
 class Estoque:
     def __init__(self):
         self.estoque = {}
@@ -30,7 +29,6 @@ class Estoque:
         for item, quantidade in self.estoque.items():
             print(f"{item}: {quantidade} unidades")
 
-# Função para gerar um relatório de estoque em um arquivo .txt
 def gerar_relatorio_estoque(estoque):
     nome_arquivo = "relatorio_estoque.txt"
     diretorio_atual = os.getcwd()
@@ -42,7 +40,6 @@ def gerar_relatorio_estoque(estoque):
             arquivo.write(f"{item}: {quantidade} unidades\n")
     print(f"Relatório de estoque gerado em {nome_arquivo}")
 
-# Função principal
 def main():
     estoque = Estoque()
 
