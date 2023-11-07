@@ -8,24 +8,25 @@ Integrantes:
 -------------------------------------------------
 
 -------------------------------------------------
-Sistema de Gerenciamento de Projeto - Vinheria
+Sistema de Gerenciamento de Estoque
 -------------------------------------------------
 
 Descrição das Funcionalidades Implementadas:
 
-1. Cadastro de Tarefas:
-   - Permite o registro de cada tarefa a ser realizada no projeto de modernização.
-   - Campos disponíveis: nome da tarefa, data de início, data de conclusão prevista, %  de  completude  real, % de completude planejada, responsável e descrição breve.
+1. Registro de Entrada:
+   - Permite o registro de entrada de produtos no estoque.
+   - Os campos incluem o nome do item e a quantidade a ser adicionada.
 
-2. Plano de Ação em Caso de Atraso:
-   - Em caso de atraso em uma tarefa, o sistema permite a criação de um plano "sucinto" para atender à data final prevista.
-   - O responsável pode detalhar as ações corretivas necessárias para recuperar o atraso.
+2. Registro de Saída:
+   - Permite o registro de saída de produtos do estoque.
+   - Os campos incluem o nome do item e a quantidade a ser removida.
 
-3. Relatórios de Progresso:
-   - Geração de relatórios que resumem o progresso geral do projeto.
-   - Exibição das tarefas concluídas, atrasadas e em andamento.
+3. Mostrar Estoque:
+   - Exibe a lista de produtos no estoque e suas quantidades atuais.
 
-6. Gestão de Recursos:
-   - Atribuição de responsáveis para cada tarefa.
+4. Geração de Relatório de Estoque:
+   - Permite a geração de um relatório de estoque em um arquivo de texto.
+   - O relatório inclui a lista de produtos e suas quantidades.
 
-Este sistema de gerenciamento de projeto foi desenvolvido para auxiliar na modernização da Vinheria, garantindo que todas as tarefas sejam executadas de forma eficiente e dentro dos prazos estabelecidos.
+5. Encerramento do Sistema:
+   - Permite ao usuário sair do sistema.
