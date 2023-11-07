@@ -30,13 +30,13 @@ class Estoque:
             print(f"{item}: {quantidade} unidades")
 
 def gerar_relatorio_estoque(estoque):
-    nome_arquivo = "relatorio_estoque.txt"
+    nome_arquivo = "relatorio_estoque.txt"  
     diretorio_atual = os.getcwd()
     caminho_absoluto = os.path.join(diretorio_atual, nome_arquivo)
 
-    with open(nome_arquivo, "w") as arquivo:
+    with open(nome_arquivo, "w") as arquivo: 
         arquivo.write("** Relatório de Estoque **\n")
-        for item, quantidade in estoque.items():
+        for item, quantidade in estoque.estoque.items():
             arquivo.write(f"{item}: {quantidade} unidades\n")
     print(f"Relatório de estoque gerado em {nome_arquivo}")
 
